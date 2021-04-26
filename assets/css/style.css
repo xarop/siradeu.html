@@ -5018,3 +5018,8 @@ p.form-message.error.form-message.error {
   background-image: url("../images/portfolio/sala.jpg");
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.eapps-instagram-feed-title, .eapps-link {
+  display: none !important;
+}

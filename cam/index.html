@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cam</title>
+</head>
+
+<body>
+    <img id="jpeg_0" width="1280" height="720">
+    <script type="text/javascript">
+        var camera_0 = {
+            addEvent: function(elem, event, func ){
+                if (typeof (window.event) != 'undefined')
+                    {elem.attachEvent('on' + event, func);}
+                else
+                    {elem.addEventListener(event, func, false);}
+            },
+            initCamera: function(jpeg, serverUrl, token, id, interval){
+              this.addEvent(jpeg, 'load', function(){setTimeout(function() {camera_0.showJpegFrame(jpeg, serverUrl, token, id);}, interval);});
+              this.showJpegFrame(jpeg, serverUrl, token, id);
+            },
+            showJpegFrame: function(jpeg, serverUrl, token, id){
+                jpeg.src = serverUrl+"/Jpeg/"+id+"?authToken="+token+"&"+new Date().getTime();
+            }
+        }
+    
+    camera_0.initCamera(jpeg_0, "http://127.0.0.1:8100", "d6d91478-3e8a-45b1-9cc3-7bae6fb235a2", 0, 40);
+    </script>
+    
+
+</body>
+
+</html>

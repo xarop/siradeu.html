@@ -52,20 +52,22 @@
     <!-- <link rel="stylesheet" href="assets/_scss/style.css"> -->
 
     <style>
-
-        @media (max-width: 767px) {
-            .navbar-brand h1 {
-                font-size: 1.5em;
-            }
-            .btn-whatsapp{
-                font-size: 1.25em!important;
-                border-radius: 50% !important;
-            }
-            .btn-whatsapp span{
-                display: none;
-            }
-          }
-        
+        .btn-whatsapp {
+            position: fixed;
+            right: 10px;
+            top: 10px;
+            font-size: 3em;
+            line-height: 1.2;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            padding: 10px;
+            color: white;
+            background-color: #56CCA1;
+        }
+        .btn-whatsapp:hover {
+            background-color: white;
+        }
     </style>
 
 </head>
@@ -141,11 +143,11 @@
                             </ul>
                         </div>
 
-                        
+                        <a class="btn-whatsapp" href="https://wa.me/34622664278" title="contactans per whatsapp"><i class="lni lni-whatsapp"></i></a>
                         
                         <div class="navbar-btn d-sm-inline-block">
                             <ul>
-                                <li><a class="solid btn-whatsapp" href="https://wa.me/34622664278" target="_blank"><i class="lni lni-whatsapp"></i> <span>Whatsapp</span></a></li>
+                                <li><a class="solid" href="https://wa.me/34622664278"><i class="lni lni-whatsapp"></i> Whatsapp</a></li>
                             </ul>
                         </div>
 
