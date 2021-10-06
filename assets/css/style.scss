@@ -196,7 +196,7 @@ $sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
   display: flex;
   h1{
     color: $primary-two;
-    font-weight: bolder;
+    font-weight: 800;
     margin: 10px;
     sup {
       
@@ -1685,7 +1685,7 @@ p.form-message.error.form-message.error {
 
 .footer-area h2{
   color: $primary-two;
-  font-weight: bolder;
+  font-weight: 800;
   margin-top: 1rem;
   sup {
     color: $primary-one;
