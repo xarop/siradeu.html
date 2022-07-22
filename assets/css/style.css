@@ -3455,7 +3455,7 @@ a:hover {
 
 .navbar-brand h1 {
   color: #EC4782;
-  font-weight: bolder;
+  font-weight: 800;
   margin: 10px;
 }
 
@@ -3741,7 +3741,7 @@ a:hover {
   color: #56CCA1;
 }
 
-.navbar-area.sticky .navbar .navbar-btn li a.solid {
+a.solid, .navbar-area.sticky .navbar .navbar-btn li a.solid {
   border-color: #56CCA1;
   background-color: #56CCA1;
   color: #fff;
@@ -4859,7 +4859,7 @@ p.form-message.error.form-message.error {
 
 .footer-area h2 {
   color: #EC4782;
-  font-weight: bolder;
+  font-weight: 800;
   margin-top: 1rem;
 }
 
