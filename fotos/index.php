@@ -78,7 +78,7 @@
 	option('ZIP_DESCRIPTIONS', FALSE);
 	option('ZIP_COMPRESSION', FALSE);
 	option('ZIP_CACHE_DAYS', 180);
-	option('TEXT_ZIP_ROOT_NAME', 'Single File PHP Gallery');
+	option('TEXT_ZIP_ROOT_NAME', 'Sira10 Gallery');
 	option('TEXT_ZIP_NOTHING', 'Nothing to zip.');
 	option('TEXT_ZIP_DL', 'Download all images in this directory as a zip file:');
 	option('TEXT_ZIP_BUTTON', 'Generate zip-file and download');
@@ -147,7 +147,7 @@
 	option('TEXT_DAYS', "['Sun','Mon','Tue','Wed','Thu','Fri','Sat']");
 	option('TEXT_MONTHS', "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']");
 
-	option('TEXT_GALLERY_NAME', 'Single File PHP Gallery');
+	option('TEXT_GALLERY_NAME', 'Sira10 Gallery');
 	option('TEXT_BANNER', '');
 	option('TEXT_HOME', 'Home');
 	option('TEXT_CLOSE_IMG_VIEW', 'Close Image');
@@ -1934,7 +1934,7 @@
 					}
 					echo "
 				}
-				info += '<br><br><small><a href=\"https://sye.dk/sfpg/\" target=\"_blank\" alt=\"\">Single File PHP Gallery</a></small>';
+				info += '<br><br><small><a href=\"https://sye.dk/sfpg/\" target=\"_blank\" alt=\"\">Sira10 Gallery</a></small>';
 				gebi('box_inner_info').innerHTML = info;
 			}
 		}
@@ -3554,7 +3554,7 @@
 
 
 	list($dirs, $images, $files, $misc) = sfpg_get_dir(GALLERY);
-	echo '<!DOCTYPE html><html lang="'.HTML_LANGUAGE.'"><head><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="'.CHARSET.'"><meta name="description" content="Single File PHP Gallery"><title>'.TEXT_GALLERY_NAME.'</title><style>'.
+	echo '<!DOCTYPE html><html lang="'.HTML_LANGUAGE.'"><head><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="'.CHARSET.'"><meta name="description" content="Sira10 Gallery"><title>'.TEXT_GALLERY_NAME.'</title><style>'.
 	'
 	img
 	{
